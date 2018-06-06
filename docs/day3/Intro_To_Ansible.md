@@ -25,7 +25,7 @@ This should spin up 3 instances for you. Once the first instance is spawned and 
 Next, you will need to copy your SSH key to your first instance. On Mac/Unix you can use the `scp` utility:
 
 ```
-$ scp -i <your_key> <your_key> root@<ip>:~
+$ scp -i <your_key> root@<ip>:~
 ```
 
 On Windows, use `WinSCP`. Make sure the key is copied into a file on the destination called `/root/.ssh/id_rsa`
