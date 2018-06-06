@@ -75,7 +75,7 @@ OSX/Linux:
 ```
  Open the application 'Terminal'
   # make sure your key file has the correct permissions:
-  $ chmod 0600 chmod 0600 ~/Downloads/<key_name>.pem
+  $ chmod 0600 ~/Downloads/<key_name>.pem
   # connect to the VM over SSH
   $ ssh -i ~/Downloads/<key_name>.pem ubuntu@<IP address>
 ```
